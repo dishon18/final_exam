@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click to display Date and Time.</button>
+<p id="demo"></p>
+
+<h2>What Can JavaScript Do?</h2>
+<p id="demo">This sentence will change after you click the button below.</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "You change the sentence!"'>change</button>
+
+<h2 id="color">Press button to change text color</h2>
+<button type="button" onclick="changeColor()">Change color</button>
+<script>
+function changeColor() {
+  document.getElementById("color").style.color = "#ff0000";
+}
+</script>
+
+</body>
+</html> 
